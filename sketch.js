@@ -79,9 +79,9 @@ function draw() {
       handleBubbleCollision(blueBubbleGroup);
     }*/
     
-    /*if(blueBubbleGroup.collide(bulletGroup)){
+    if(blueBubbleGroup.collide(bulletGroup)){
       handleBubbleCollision(blueBubbleGroup);
-    }*/
+    }
 
     if(redBubbleGroup.collide(bulletGroup)){
       handleBubbleCollision(redBubbleGroup);
@@ -140,8 +140,8 @@ function handleGameover(bubbleGroup){
      /*life=life-1;
     bubbleGroup.destroy();*/
 
-     /*life=life-1;
-    bubble.destroyEach();*/
+     life=life-1;
+    bubble.destroyEach();
     
 
     if (life === 0) {
